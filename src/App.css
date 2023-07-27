@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+.currency-converter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+input[type="number"],
+input[type="text"],
+select {
+  padding: 5px;
+  font-size: 16px;
+}
